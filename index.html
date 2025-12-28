@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Aroma - El mejor café de la ciudad en un ambiente acogedor.">
+    <title>Café Aroma | Café de Especialidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords"
+        content="café, cafetería, café de especialidad, latte art, café aroma, pastelería, desayuno, merienda">
+    <meta name="author" content="Café Aroma">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cafearoma.com/">
+    <meta property="og:title" content="Café Aroma | Café de Especialidad">
+    <meta property="og:description"
+        content="Descubre el mejor café de especialidad en un ambiente cálido y acogedor. Pastelería artesanal y momentos únicos.">
+    <meta property="og:image" content="https://www.cafearoma.com/images/hero_bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.cafearoma.com/">
+    <meta property="twitter:title" content="Café Aroma | Café de Especialidad">
+    <meta property="twitter:description"
+        content="Descubre el mejor café de especialidad en un ambiente cálido y acogedor. Pastelería artesanal y momentos únicos.">
+    <meta property="twitter:image" content="https://www.cafearoma.com/images/hero_bg.png">
+
+    <link rel="canonical" href="https://www.cafearoma.com/">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#inicio" class="logo">Café Aroma</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>El Arte del Buen Café</h1>
+            <p>Descubre sabores únicos en un ambiente cálido y acogedor.</p>
+            <a href="#menu" class="btn btn-primary">Ver Menú</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Nuestra Historia</h2>
+                <p>En Café Aroma, nos apasiona cada grano. Desde nuestros humildes comienzos, nos hemos dedicado a traer
+                    los mejores granos de café de especialidad de todo el mundo directamente a tu taza. Nuestros
+                    baristas expertos cuidan cada detalle para ofrecerte una experiencia inolvidable, rodeado de un
+                    ambiente diseñado para la relajación y el disfrute.</p>
+                <p>Creemos en la comunidad, la calidad y la calidez. Ven y sé parte de nuestra familia.</p>
+            </div>
+            <div class="about-image">
+                <!-- Placeholder for About Image -->
+                <div class="img-placeholder" id="about-img-placeholder"></div>
+                <img src="images/about_img.png" alt="Barista preparando café"
+                    onerror="this.style.display='none'; document.getElementById('about-img-placeholder').style.display='block';">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <div class="menu-grid">
+                <!-- Coffee -->
+                <div class="menu-category">
+                    <h3>Café</h3>
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Espresso</span>
+                                <span class="item-price">$2500</span>
+                            </div>
+                            <p class="item-desc">Intenso y puro.</p>
+                        </li>
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Cappuccino</span>
+                                <span class="item-price">$3500</span>
+                            </div>
+                            <p class="item-desc">Espresso, leche vaporizada y espuma.</p>
+                        </li>
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Latte Caramel</span>
+                                <span class="item-price">$4000</span>
+                            </div>
+                            <p class="item-desc">Suave leche con un toque de caramelo.</p>
+                        </li>
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Flat White</span>
+                                <span class="item-price">$3800</span>
+                            </div>
+                            <p class="item-desc">Doble shot de espresso con leche sedosa.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Pastries -->
+                <div class="menu-category">
+                    <h3>Pastelería</h3>
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Medialuna</span>
+                                <span class="item-price">$1500</span>
+                            </div>
+                            <p class="item-desc">Clásica de manteca, horneada a diario.</p>
+                        </li>
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Cheesecake</span>
+                                <span class="item-price">$4500</span>
+                            </div>
+                            <p class="item-desc">Con frutos rojos frescos.</p>
+                        </li>
+                        <li>
+                            <div class="menu-item-head">
+                                <span class="item-name">Tostado de Jamón y Queso</span>
+                                <span class="item-price">$5000</span>
+                            </div>
+                            <p class="item-desc">En pan de masa madre.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section (Visual Break) -->
+    <section class="featured-break">
+        <div class="featured-content">
+            <h2>Prueba nuestra especialidad</h2>
+            <p>Latte Art de campeonato todos los días.</p>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="location">
+        <div class="container">
+            <h2 class="section-title">Visítanos</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-item">
+                        <h3>Dirección</h3>
+                        <p>Av. Siempre Viva 123,<br>Ciudad, 3500</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Horarios</h3>
+                        <p>Lun - Vie: 07:00 - 20:00</p>
+                        <p>Sáb - Dom: 09:00 - 21:00</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Contacto</h3>
+                        <p>hola@cafearoma.com</p>
+                        <p>+54 11 1234 5678</p>
+                    </div>
+                </div>
+                <div class="map">
+                    <!-- Placeholder map -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.066850016401!2d-58.38157039999999!3d-34.6037389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf7663d419%3A0xdbc230bb9345e355!2sObelisco!5e0!3m2!1ses!2sar!4v1675200000000!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Café Aroma. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Café Aroma",
+      "image": "https://www.cafearoma.com/images/hero_bg.png",
+      "@id": "",
+      "url": "https://www.cafearoma.com",
+      "telephone": "+541112345678",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Siempre Viva 123",
+        "addressLocality": "Ciudad",
+        "postalCode": "3500",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -34.6037389,
+        "longitude": -58.3815704
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "07:00",
+        "closes": "20:00"
+      },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      }],
+      "menu": "https://www.cafearoma.com/#menu",
+      "servesCuisine": "Coffee",
+      "priceRange": "$$"
+    }
+    </script>
+</body>
+
+</html>
