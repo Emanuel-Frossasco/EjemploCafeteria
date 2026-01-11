@@ -397,4 +397,16 @@ footer {
     .about-image {
         order: -1;
     }
+
+    /* Optimization: Disable fixed background on mobile */
+    .hero,
+    .featured-break {
+        background-attachment: scroll;
+    }
+}
+
+/* Navbar Scrolled State */
+.navbar.scrolled {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
 }
